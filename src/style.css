@@ -42,7 +42,7 @@ body{
     background-color: midnightblue;
 }
 .chip{
-    width: 200%;
+    width: 50%;
     max-width: 5px;
     margin-bottom: 20px;
 }

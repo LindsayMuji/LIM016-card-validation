@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Validación de Tarjeta</title>
     <link href="https://fonts.google.com/noto/specimen/Noto+Serif+JP">
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -21,7 +21,7 @@
             <section class="tarjeta" id="tarjeta">
         <div class="front">
           <div class="chip">
-            <img src="images/Chip.PNG" alt="">
+            <img src="images/Chip.PNG" width="80" height="60">
           </div>
           <div class="datos">
             <div class="grupo" id="numero">
@@ -37,16 +37,56 @@
               <p class="label">Expiración</p>
               <p class="expiracion"><span class="month">MM</span> / <span class="year">AA</span></p>
             </div>
-
-          </div>
+           </div>
           </div>
         </div>
       </section>
+        <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+          <div class="grupo">
+            <label for="inputNumero">Número de tarjeta</label>
+            <input type="text" id="inputNumero" maxlength="16" autocomplete="off">
+          </div>
+          <div class="grupo">
+            <label for="inputNombre">Nombre</label>
+            <input type="text" id="inputNombre" maxlength="16" autocomplete="off">
+          </div>
+          <div class="flexbox">
+            <div class="grupo Expiración">
+              <label for="selectmes">Expiración</label>
+              <div class="flexbox">
+                <div class="grupo-select">
+                  <select name="mes" id="selectmes">
+                  <option disabled select>Mes</option>
+                  </select>
+                  <i class="fas fa-angle-down"</i>
+                </div>
+                <div class="grupo-select">
+                    <select name="year" id="selectyear">
+                      <option disabled select>Año</option>
+                      </select>
+                      <i class="fas fa-angle-down"</i>
+                 
+                  <div class="grupo ccv">
+                    <label for="inputccv" id="inputccv" maxlength="3"></label>
+                  </div>
+                </div>
+                <button type="submit" class="btn-validar">VALIDAR</button>
+                      </div>
+              </div>
+          </div>
+        </form>
+    
+      <form action="validation.html">
+      <button type="submit"  onclick="pasarValor()">VALIDAR</button>
+      </form>
     </section>
     </div>
     
+      
+       
     
-    <main>Número de tarjeta</main>
+    
+    <main></main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
