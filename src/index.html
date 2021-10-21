@@ -53,27 +53,25 @@
           <div class="flexbox">
             <div class="grupo Expiración">
               <label for="selectmes">Expiración</label>
-              <div class="flexbox">
-                <div class="grupo-select">
-                  <select name="mes" id="selectmes">
-                  <option disabled select>Mes</option>
-                  </select>
-                  <i class="fas fa-angle-down"</i>
-                </div>
-                <div class="grupo-select">
-                    <select name="year" id="selectyear">
-                      <option disabled select>Año</option>
-                      </select>
-                      <i class="fas fa-angle-down"</i>
-                 
-                  <div class="grupo ccv">
-                    <label for="inputccv" id="inputccv" maxlength="3"></label>
-                  </div>
-                </div>
-                <button type="submit" class="btn-validar">VALIDAR</button>
-                      </div>
-              </div>
-          </div>
+            </div>
+          <div class="flexbox">
+            <div class="grupo-select">
+              <select name="mes" id="selectmes">
+              <option disabled select>Mes</option>
+              </select>
+              <i class="fas fa-angle-down"</i>
+            </div>
+            <div class="grupo-select">
+              <select name="year" id="selectyear">
+              <option disabled select>Año</option>
+              </select>
+              <i class="fas fa-angle-down"</i>
+            </div>
+            <div class="grupo cvv">
+              <label for="inputccv">CVV</label>
+              <input type="text" id="inputccv" maxlength="3">
+            </div>
+            <button type="submit" class="btn-validar">VALIDAR</button>
         </form>
     
       <form action="validation.html">
