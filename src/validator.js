@@ -1,3 +1,5 @@
+/*
+
 const validator (n) = {
   // Convertir string en array
 const digits = n.toString().split('').map(number);
@@ -13,3 +15,6 @@ function fixDouble(number) {
   return number > 9 ? number - 9 : number;
   }
 export default validator;
+
+
+*/
