@@ -73,6 +73,7 @@ h1{
 .formulario-tarjeta .flexbox{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .formulario-tarjeta .grupo expiracion{

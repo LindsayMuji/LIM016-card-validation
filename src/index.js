@@ -1,4 +1,5 @@
-//import validator from './validator.js';
+import validator from './validator.js';
+    console.log(validator.isValid("inputNumero"));
 
 const formulario = document.querySelector('#formulario-tarjeta');
 let inputNumero = document.querySelector('#inputNumero');
@@ -32,13 +33,13 @@ formulario.inputNumero.addEventListener('keyup', (e) => {
 //* elimino las letras
     .replace(/\D/g, '')
 //* espaciado cada cuatro digitos
-    .replace(/([0-9]{4})/g, '$1 ')
+    .replace(/([0-9]{4})/g,'$1 ')
 //* elimina el ultimo espacio
     .trim();
 })
 
 if(inputNumero==''){
-    alert = "Ingrese Número de Tarjeta"
+    alert ("Ingrese Número de Tarjeta")
 }
 
 //* input nombre
