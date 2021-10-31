@@ -50,15 +50,15 @@ formulario.inputNombre.addEventListener('keyup', (e) => {
     //* eliminar numeros en el nombre
     formulario.inputNombre.value = valorInput.replace(/[0-9]/g, '');
     if (valorInput == ' '){
-        alert ('Ingrese Nombre')
+        alert ("Ingrese Nombre");
     }
 })
 
 botonValidar.addEventListener('click', () => {
   let digitos = document.getElementById('inputNumero').value;
-  let resultado = validator.isValid(digitos.replace(/\s/g, ''));
-  let masknumber = validator.maskify(digitos.replace(/\s/g, ''))
+  let resultado = validator.isValid(digitos.replace(/\s/g, ""));
+  let masknumber = validator.maskify(digitos.replace(/\s/g, ""));
 
-  resultado === true? alert("El número de tarjeta: " + ' \n ' + masknumber + " \n  \n " + "ES VALIDA" ): alert("El número de tarjeta: " + "\n" + masknumber + "\n \n" + "NO ES VALIDA");
+  resultado === true?alert("El número de tarjeta: " + ' \n ' + masknumber + " \n  \n " + "ES VALIDA" ):alert("El número de tarjeta: " + "\n" + masknumber + "\n \n" + "NO ES VALIDA");
 });
 

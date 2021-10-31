@@ -1,7 +1,7 @@
 const validator = {
   isValid: function (inputNumero) {
     //Convertir numero en Array´
-    let digitos = Array.from(inputNumero).map(Number);
+    let digitos = Array.from(inputNumero).map( i=> Number(i) );
     //algoritmo de Lunh
 
     //Invertir numeros
@@ -9,7 +9,7 @@ const validator = {
 
     let sum = 0;
 
-    for (let i = 0; i < digitos.lenght; i++) {
+    for (let i = 0; i < digitos.length; i++) {
       if (i%2===1){
         if ((digitos[i]*2) >=10){
           digitos[i] = digitos[i]*2-9;
@@ -32,7 +32,7 @@ const validator = {
 
     for (let i = 0; i < inputNumero.lenght; i++) {
 
-      if (i <= inputNumero.lenght -5) {
+      if (i <= inputNumero.length -5) {
         mask += "#";
       } else{
         mask += inputNumero[i];
