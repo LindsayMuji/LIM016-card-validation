@@ -36,18 +36,20 @@ formulario.inputNumero.addEventListener('keyup', (e) => {
     .replace(/([0-9]{4})/g,'$1 ')
 //* elimina el ultimo espacio
     .trim();
+
+    if(valorInput == ' '){
+      alert ("Ingrese Número de Tarjeta");
+  }
 })
 
-if(inputNumero==''){
-    alert ("Ingrese Número de Tarjeta")
-}
+
 
 //* input nombre
 formulario.inputName.addEventListener('keyup', (e) => {
     let valorInput = e.target.value;
     //* eliminar numeros en el nombre
     formulario.inputName.value = valorInput.replace(/[0-9]/g, '');
-    if (valorInput == ''){
+    if (valorInput == ' '){
         alert ('Ingrese Nombre')
     }
 })
