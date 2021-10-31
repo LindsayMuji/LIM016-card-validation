@@ -18,7 +18,7 @@ h1{
     font-size: 25px;
     color: rgb(144, 130, 112);
     text-align: left;
-    
+
 }
 .imagen{
     position: fixed;
@@ -55,7 +55,7 @@ h1{
     color: white;
     font-size: 20px;
     height: 20px;
-    width: 60%;
+    width: 65%;
     padding: 5px 12px;
     border-radius: 5px;
 
@@ -73,7 +73,7 @@ h1{
 .formulario-tarjeta .flexbox{
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .formulario-tarjeta .grupo expiracion{
@@ -84,7 +84,7 @@ h1{
     min-width: 100px ;
 }
 
-.formulario-tarjeta .grupo-select{ 
+.formulario-tarjeta .grupo-select{
     width: 100%;
     margin-right: 15px;
     display: flex;

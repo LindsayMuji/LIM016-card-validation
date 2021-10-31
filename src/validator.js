@@ -30,9 +30,9 @@ const validator = {
 
     let mask = " ";
 
-    for (let i = 0; i < inputNumero.lenght; i++){
+    for (let i = 0; i < inputNumero.lenght; i++) {
 
-      if (i<= inputNumero.lenght -5){
+      if (i <= inputNumero.lenght -5) {
         mask += "#";
       } else{
         mask += inputNumero[i];

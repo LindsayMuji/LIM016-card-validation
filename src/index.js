@@ -3,7 +3,7 @@ import validator from './validator.js';
 
 const formulario = document.querySelector('#formulario-tarjeta');
 let inputNumero = document.querySelector('#inputNumero');
-let inputName = document.querySelector('#inputNombre');
+let inputNombre = document.querySelector('#inputNombre');
 let botonValidar = document.getElementById('btn-validar');
 
 
@@ -45,10 +45,10 @@ formulario.inputNumero.addEventListener('keyup', (e) => {
 
 
 //* input nombre
-formulario.inputName.addEventListener('keyup', (e) => {
+formulario.inputNombre.addEventListener('keyup', (e) => {
     let valorInput = e.target.value;
     //* eliminar numeros en el nombre
-    formulario.inputName.value = valorInput.replace(/[0-9]/g, '');
+    formulario.inputNombre.value = valorInput.replace(/[0-9]/g, '');
     if (valorInput == ' '){
         alert ('Ingrese Nombre')
     }
@@ -59,7 +59,6 @@ botonValidar.addEventListener('click', () => {
   let resultado = validator.isValid(digitos.replace(/\s/g, ''));
   let masknumber = validator.maskify(digitos.replace(/\s/g, ''))
 
-  resultado === true? alert("El número de tarjeta: " + "\n" + masknumber + "\n \n" + "ES VALIDA" ):
-  alert("El número de tarjeta: " + "\n" + masknumber + "\n \n" + "NO ES VALIDA");
+  resultado === true? alert("El número de tarjeta: " + ' \n ' + masknumber + " \n  \n " + "ES VALIDA" ): alert("El número de tarjeta: " + "\n" + masknumber + "\n \n" + "NO ES VALIDA");
 });
 
