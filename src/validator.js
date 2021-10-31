@@ -23,14 +23,14 @@ const validator = {
       sum = sum + digitos[i];
     }
     //si la suma de los digitos es multiplo de 10 es tarjeta valida
-    return sum%10 ===0;
+    return sum%10 === 0;
   },
 
   maskify: (inputNumero) => {
 
     let mask = " ";
 
-    for (let i = 0; i < inputNumero.lenght; i++) {
+    for (let i = 0; i < inputNumero.length; i++) {
 
       if (i <= inputNumero.length -5) {
         mask += "#";
