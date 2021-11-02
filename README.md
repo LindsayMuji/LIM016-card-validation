@@ -24,9 +24,19 @@ Los usuarios serán las personas que desean adquirir los productos ofrecidos por
 Realizar su compra de manera rápida y sencilla haciendo uso de su tarjeta de crédito o débito a través de la pagina web, sin tener que acercarse a una tienda o realizar pagos con efectivo.
 
 ## Primer Prototipo
-Primer Prototipo realizado en figma
+Primer Prototipo realizado en figma: Se obtuvo feedback de mis compañeras quienes sugirieron incluir los datos como nombre, fecha de vencimiento y cvv.
 
 ![](src/images/Prototipo1.PNG)
+
+Protitipo luego del feedback.
+
+![](src/images/Prototipo2.PNG)
+
+## Segundo Prototipo
+Segundo Prototipo realizado en figma: Se obtuvo feedback del cliente quien desea una página mas seria con colores adecuados al rubro del negocio, deseó que la presentación sea en forma de tarjeta así pueda ser más facil para el usuario.
+
+![](src/images/Final.PNG)
+
 ## Objetivos de aprendizaje
 
 ### HTML
