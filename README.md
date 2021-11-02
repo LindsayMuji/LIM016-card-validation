@@ -26,8 +26,7 @@ Realizar su compra de manera rápida y sencilla haciendo uso de su tarjeta de cr
 ## Primer Prototipo
 Primer Prototipo realizado en figma
 
-![](https://www.figma.com/file/IrmV1cTVXHGxRF4E6SZaer/Untitled?node-id=0%3A1)
-
+![](src/images/Prototipo1.PNG)
 ## Objetivos de aprendizaje
 
 ### HTML
