@@ -1,6 +1,7 @@
 # Validación de Tarjeta
 
 **Introducción**
+
 La validación de tarjetas es importante para poder verificar la funcionalidad de una tarjeta de crédito o débito para poder comprobar si se puede confirmar la compra realizada a través de la pagina web.
 
 ## Definición del Cliente
@@ -24,8 +25,7 @@ Realizar su compra de manera rápida y sencilla haciendo uso de su tarjeta de cr
 
 ## Primer Prototipo
 Primer Prototipo realizado en figma
-![Prototipo1](images/Prototipo1.PNG)
-
+![](images/prototipo1.PNG)
 ## Objetivos de aprendizaje
 
 ### HTML
